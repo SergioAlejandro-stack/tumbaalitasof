@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+  <div class="nav-container">
+    <a href="#" class="logo">
+      <img src="img/logo2.png" alt="Logo Tumbalitas" class="logo-img" border="0">
+    </a>
+    
+    <button class="menu-toggle" id="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#salsas">Salsas</a></li> 
+      <li><a href="#menu">Menú</a></li>
+      <li><a href="#combos">Combos</a></li>
+      <li><a href="#info">Ubicación</a></li>
+    </ul>
+  </div>
+</nav>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tumbalitas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- BOTÓN WHATSAPP -->
+<a class="whatsapp-float"
+   href="https://wa.me/525542337173?text=Hola%20quiero%20hacer%20un%20pedido%20en%20Tumbalitas%20🍗🔥"
+   target="_blank">💬</a>
+
+<section id="inicio" class="hero">
+  <div class="hero-bg-carousel">
+    <div class="bg-slide active" style="background-image: url('img/img1.jpg');"></div>
+    <div class="bg-slide" style="background-image: url('img/img2.jpg');"></div>
+    <div class="bg-slide" style="background-image: url('img/logo2.png');"></div>
+    <div class="bg-slide" style="background-image: url('https://www.cocinadelirante.com/sites/default/files/images/2020/06/papas-gajo-al-horno.jpg');"></div>
+    
+    
+    <div class="bg-slide" style="background-image: url('img/img7.jpeg');"></div>
+    <div class="bg-slide" style="background-image: url('img/img8.jpeg');"></div>
+    <div class="bg-slide" style="background-image: url('img/img9.jpeg');"></div>
+    <div class="bg-slide" style="background-image: url('img/img10.jpeg');"></div>
+    <div class="bg-slide" style="background-image: url('img/img11.jpeg');"></div>
+  </div>
+
+  <div class="hero-content">
+    <h1>TUMBALITAS</h1>
+    <p>Alitas y boneless que tumban el hambre 🔥</p>
+    <a class="btn" href="https://wa.me/525542337173" target="_blank">PEDIR POR WHATSAPP</a>
+  </div>
+</section>
+  <section class="vertical-carousel-section">
+  <div class="banner-title">
+    <h2>SUPER BOWL COMBOS 🔥</h2>
+    <a href="#combos-superbowl" class="btn-info-bowl">CLICK AQUÍ PARA MÁS INFORMACIÓN</a>
+  </div>
+
+  <div class="v-carousel-container">
+    <div class="v-carousel-track">
+      <div class="v-slide">
+        <a href="#combos-superbowl"><img src="img/img4.jpg" alt="Combo 1"></a>
+      </div>
+      <div class="v-slide">
+        <a href="#combos-superbowl"><img src="img/img12.jpeg" alt="Combo 2"></a>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<!-- MENÚ -->
+
+<section id="menu" class="menu">
+  <h2>MENÚ</h2>
+
+  <div class="menu-grid">
+
+    <div class="card-container">
+  <div class="card-inner">
+    <div class="card-front">
+      <h3>🍗 Alitas</h3>
+      <p>6 pzas – $75 | 12 pzas – $130</p>
+      <p class="sabores">
+        <strong>Sabores:</strong><br>
+        BBQ · Fresa Hot · Búfalo · Tamarindo Habanero · Tamarindo · Lemon Pepper · Pelón pero Rico · Flamin Hot · Guayaba Habanero
+      </p>
+      <span class="hint">VOLTEAR PARA NIVEL 🌶️</span>
+    </div>
+
+    <div class="card-back">
+      <div class="gauge-container">
+        <svg class="gauge" viewBox="0 0 200 120">
+          <path class="gauge-bg" d="M20,100 A80,80 0 0,1 180,100" />
+          <path class="gauge-progress p-alitas" d="M20,100 A80,80 0 0,1 180,100" />
+          <line class="needle n-alitas" x1="100" y1="100" x2="100" y2="20" />
+          <circle class="needle-center" cx="100" cy="100" r="6" />
+        </svg>
+        <div class="gauge-label">
+          <h2 class="fuego">NIVEL: EXTREMO 💀</h2>
+        </div>
+      </div>
+      <a class="btn-whatsapp" href="https://wa.me/525542337173?text=Quiero%20alitas%20🍗" target="_blank">ORDENAR</a>
+    </div>
+  </div>
+</div>
+
+<div class="card-container">
+  <div class="card-inner">
+    <div class="card-front">
+      <h3>🍖 Boneless</h3>
+      <p>250 g – $85 | 400 g – $150</p>
+      <p class="sabores">
+        <strong>Sabores:</strong><br>
+        BBQ · Fresa Hot · Búfalo · Tamarindo Habanero · Tamarindo · Lemon Pepper · Pelón pero Rico · Flamin Hot · Guayaba Habanero
+      </p>
+      <span class="hint">Ver Picante 🌶️</span>
+    </div>
+    <div class="card-back">
+      <div class="gauge-container">
+        <svg class="gauge" viewBox="0 0 200 120">
+          <path class="gauge-bg" d="M20,100 A80,80 0 0,1 180,100" />
+          <path class="gauge-progress p-boneless" d="M20,100 A80,80 0 0,1 180,100" />
+          <line class="needle n-boneless" x1="100" y1="100" x2="100" y2="20" />
+          <circle class="needle-center" cx="100" cy="100" r="6" />
+        </svg>
+        <div class="gauge-label">
+          <h2>NIVEL: ALTO 🔥</h2>
+        </div>
+      </div>
+      <a class="btn-whatsapp" href="https://wa.me/525542337173?text=Quiero%20boneless%20🍖" target="_blank">ORDENAR</a>
+    </div>
+  </div>
+</div>
+
+<div class="card-container">
+  <div class="card-inner">
+    <div class="card-front">
+      <h3>🍟 Papas Gajo</h3>
+      <p>Orden – $45</p>
+      <p>Crujientes y sazonadas</p>
+      <span class="hint">Ver Picante 🌶️</span>
+    </div>
+    <div class="card-back">
+      <div class="gauge-container">
+        <svg class="gauge" viewBox="0 0 200 120">
+          <path class="gauge-bg" d="M20,100 A80,80 0 0,1 180,100" />
+          <path class="gauge-progress p-papas" d="M20,100 A80,80 0 0,1 180,100" />
+          <line class="needle n-papas" x1="100" y1="100" x2="100" y2="20" />
+          <circle class="needle-center" cx="100" cy="100" r="6" />
+        </svg>
+        <div class="gauge-label">
+          <h2>NIVEL: BAJO ☁️</h2>
+        </div>
+      </div>
+      <a class="btn-whatsapp" href="https://wa.me/525542337173?text=Quiero%20papas%20gajo%20🍟" target="_blank">ORDENAR</a>
+    </div>
+  </div>
+</div>
+</section>
+<section id="salsas" class="salsas-section fade-in">
+  <div class="salsas-header">
+    <h2>🔥 NUESTRAS SALSAS</h2>
+    <p>Desde el toque dulce hasta el nivel que te tumba 🍗🔥</p>
+  </div>
+
+  <div class="salsas-container">
+    
+    <div class="salsa-card">
+      <span class="emoji">🍯</span>
+      <h3>BBQ</h3>
+      <p>Clásica, dulce y ahumada.</p>
+      <div class="picometro"><div class="picometro-bar level-1"></div></div>
+      <span class="nivel-texto">Novato ☁️</span>
+    </div>
+
+    <div class="salsa-card">
+      <span class="emoji">🍋</span>
+      <h3>Lemon Pepper</h3>
+      <p>Cítrico con un toque de pimienta.</p>
+      <div class="picometro"><div class="picometro-bar level-1"></div></div>
+      <span class="nivel-texto">Bajo 🍋</span>
+    </div>
+
+    <div class="salsa-card">
+      <span class="emoji">🟤</span>
+      <h3>Tamarindo</h3>
+      <p>Agridulce y refrescante.</p>
+      <div class="picometro"><div class="picometro-bar level-2"></div></div>
+      <span class="nivel-texto">Bajo-Medio 🥤</span>
+    </div>
+
+    <div class="salsa-card">
+      <span class="emoji">🍭</span>
+      <h3>Pelón pero Rico</h3>
+      <p>Sabor a dulce de tamarindo picosito.</p>
+      <div class="picometro"><div class="picometro-bar level-3"></div></div>
+      <span class="nivel-texto">Medio 😋</span>
+    </div>
+
+    <div class="salsa-card">
+      <span class="emoji">🍓</span>
+      <h3>Fresa Hot</h3>
+      <p>Exótica mezcla de fresa con picante.</p>
+      <div class="picometro"><div class="picometro-bar level-3"></div></div>
+      <span class="nivel-texto">Medio 🔥</span>
+    </div>
+
+    <div class="salsa-card">
+      <span class="emoji">🌶️</span>
+      <h3>Búfalo</h3>
+      <p>El picante tradicional neoyorquino.</p>
+      <div class="picometro"><div class="picometro-bar level-4"></div></div>
+      <span class="nivel-texto">Alto 🥵</span>
+    </div>
+
+    <div class="salsa-card">
+      <span class="emoji">🔥</span>
+      <h3>Flamin Hot</h3>
+      <p>Inspirada en el picante intenso y rojo.</p>
+      <div class="picometro"><div class="picometro-bar level-4"></div></div>
+      <span class="nivel-texto">Alto 💥</span>
+    </div>
+
+    <div class="salsa-card card-extrema"> <span class="emoji">🟠</span>
+  <h3>Tamarindo Habanero</h3>
+  <p>Agridulce con el fuego del habanero.</p>
+  <div class="picometro"><div class="picometro-bar level-5"></div></div>
+  <span class="nivel-texto">EXTREMO 💀</span>
+</div>
+
+<div class="salsa-card card-extrema"> <span class="emoji">💀</span>
+  <h3>Guayaba Habanero</h3>
+  <p>Nuestra salsa más potente. ¿Te atreves?</p>
+  <div class="picometro"><div class="picometro-bar level-5"></div></div>
+  <span class="nivel-texto">EXTREMO 💀🔥</span>
+</div>
+  </div>
+</section>
+<!-- COMBOS -->
+<section class="combos fade-in"><section id="combos" class="combos">
+  <h2>🔥 COMBOS</h2>
+
+  <div class="menu-grid">
+
+    <div class="card-container">
+      <div class="card-inner">
+        <div class="card-front">
+          <h3>Alitas + Papas</h3>
+          <p>$115</p>
+          <span class="hint">VER FOTO 📸</span>
+        </div>
+        <div class="card-back combo-back" style="background-image: url('img/img3.jpg');">
+          <a class="order-btn" href="https://wa.me/525542337173?text=Quiero%20el%20combo%20Alitas%20+%20Papas%20🍗🍟" target="_blank">ORDENAR</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <div class="card-inner">
+        <div class="card-front">
+          <h3>Boneless + Papas</h3>
+          <p>$120</p>
+          <span class="hint">VER FOTO 📸</span>
+        </div>
+        <div class="card-back combo-back" style="background-image: url('img/img7.jpeg');"> <a class="order-btn" href="https://wa.me/525542337173?text=Quiero%20el%20combo%20Boneless%20+%20Papas%20🍖🍟" target="_blank">ORDENAR</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <div class="card-inner">
+        <div class="card-front">
+          <h3>Alitas + Boneless</h3>
+          <p>$135</p>
+          <span class="hint">VER FOTO 📸</span>
+        </div>
+        <div class="card-back combo-back" style="background-image: url('img/img8.jpeg');"> <a class="order-btn" href="https://wa.me/525542337173?text=Quiero%20el%20combo%20Alitas%20+%20Boneless%20🔥" target="_blank">ORDENAR</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="combos-superbowl" class="combos fade-in">
+  
+  <div style="text-align: center; padding: 30px; background-color: #000; border-radius: 15px; margin-bottom: 30px; border: 3px solid #d90429;">
+    <h2 class="titulo-fuego" style="color: #fff; margin: 0; font-size: 2.8em;">🔥 SUPER BOWL COMBOS 🔥</h2>
+    <p style="color: #ffb703; font-weight: bold; letter-spacing: 2px; margin-top: 10px;">¡LOS VERDADEROS COMBOS QUE TACLEAN TU HAMBRE!</p>
+  </div>
+
+  <div class="menu-grid">
+
+
+    <div class="card-container">
+      <div class="card-inner">
+        <div class="card-front" style="background-color: #f8f9fa; border-top: 5px solid #013369;">
+          <div style="font-size: 2rem; margin-bottom: 10px;">🛡️🍗</div>
+          <h3 style="color: #013369; margin: 0;">COMBO LINEBACKER</h3>
+          <p style="font-size: 0.8em; color: #555; font-weight: bold;">Fuerte para frenar el hambre</p>
+          <p style="font-size: 1.8em; font-weight: bold; color: #d90429; margin: 10px 0;">$250</p>
+          <p style="font-size: 0.8em; color: #666;">20 Alitas + Papas Gajo</p>
+          <span class="hint">VER FOTO 📸</span>
+        </div>
+        <div class="card-back combo-back" style="background-image: url('img/img4.jpg');">
+          <a class="order-btn" href="https://wa.me/525542337173?text=🏈%20¡INTERCEPCIÓN!%20Quiero%20el%20Combo%20LINEBACKER%20($200)" target="_blank">ORDENAR</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <div class="card-inner">
+        <div class="card-front" style="background-color: #f8f9fa; border-top: 5px solid #013369;">
+          <div style="font-size: 2rem; margin-bottom: 10px;">🏃‍♂️🍖</div>
+          <h3 style="color: #013369; margin: 0;">COMBO WIDE RECEIVER</h3>
+          <p style="font-size: 0.8em; color: #555; font-weight: bold;">Rápido y listo para la acción</p>
+          <p style="font-size: 1.8em; font-weight: bold; color: #d90429; margin: 10px 0;">$199</p>
+          <p style="font-size: 0.8em; color: #666;">400 gramos de Boneless + Papas Gajo</p>
+          <span class="hint">VER FOTO 📸</span>
+        </div>
+        <div class="card-back combo-back" style="background-image: url('img/img12.jpeg');">
+          <a class="order-btn" href="https://wa.me/525542337173?text=🏈%20¡PASE%20COMPLETO!%20Quiero%20el%20Combo%20WIDE%20RECEIVER%20($179)" target="_blank">ORDENAR</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <div class="card-inner">
+        <div class="card-front card-mvp" style="background: linear-gradient(145deg, #ffffff, #fff0f0); border: 2px solid #d90429;">
+          <div style="font-size: 2.5rem; margin-bottom: 5px;">🏆👑</div>
+          <h3 style="color: #d90429; margin: 0;">COMBO MVP GANADOR</h3>
+          <p style="font-size: 0.8em; color: #000; font-weight: bold;">El jugador más valioso de la noche</p>
+          <p style="font-size: 2.2em; font-weight: 900; color: #d90429; margin: 10px 0;">$350</p>
+          <p style="font-size: 0.8em; color: #000;">20 Alitas + 400 gramos de Boneless </p>
+          <span class="hint">VER FOTO 📸</span>
+        </div>
+        <div class="card-back combo-back" style="background-image: url('img/img12.jpeg');">
+          <a class="order-btn" href="https://wa.me/525542337173?text=🏈%20¡TOUCHDOWN!%20Quiero%20el%20Combo%20MVP%20CAMPEÓN%20($299)" target="_blank">ORDENAR EL CAMPEÓN</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="promo-disclaimer">
+  <div class="disclaimer-content">
+    <span class="icon">⚠️</span>
+    <p><strong>AVISO IMPORTANTE:</strong> Esta promoción de <strong>Super Bowl Combos</strong> es exclusiva y válida únicamente el dia del Super Bowl(Domingo). ¡No te quedes fuera del juego!</p>
+  </div>
+</div>
+  
+<!-- INFO -->
+<section id="info" class="info-details">
+  <h2>📍 INFORMACIÓN CLAVE</h2>
+  
+  <div class="info-grid">
+    <div class="info-card">
+      <div class="icon">🕒</div>
+      <h3>Horario</h3>
+      <p>Viernes a Domingo</p>
+      <p><strong>6:00 pm – 11:00 pm</strong></p>
+    </div>
+
+    <div class="info-card">
+      <div class="icon">🚗</div>
+      <h3>Zona de Entrega</h3>
+      <p>Hacienda del Jardín y alrededores.</p>
+    </div>
+
+    <div class="info-card">
+      <div class="icon">💳</div>
+      <h3>Pagos</h3>
+      <p>Efectivo y</p>
+      <p>Transferencia SPEI</p>
+    </div>
+
+    <div class="info-card">
+      <div class="icon">📲</div>
+      <h3>Pedidos</h3>
+      <p>Únicamente por</p>
+      <p><strong>WhatsApp</strong></p>
+    </div>
+  </div>
+</section>
+<section id="ubicacion" class="info">
+  <h2>📍 Nuestra Ubicación</h2>
+  <div class="location-container">
+    <div class="map-frame">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3757.2647087094244!2d-99.13922022421394!3d19.65874283344604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f4d0fd2f44e7%3A0x8d5e5b2b5f962bb0!2sAv.%20Hacienda%20del%20Jard%C3%ADn%20236%2C%20Hacienda%20del%20Jard%C3%ADn%2C%2054980%20Santiago%20Teyahualco%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1700000000000!5m2!1ses-419!2smx" 
+        width="100%" 
+        height="450" 
+        style="border:0; border-radius: 15px;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <div class="location-details">
+      <h3>Carnicería Mauri</h3>
+      <p><strong>Dirección:</strong><br>
+      Av. Hacienda del Jardín 236, <br>
+      Hacienda del Jardín, 54980 <br>
+      Santiago Teyahualco, Méx.</p>
+      
+      <p>🔥 <em>¡Te esperamos para tumbar el hambre!</em></p>
+      
+      <a class="order-btn" 
+         href="https://www.google.com/maps/dir/?api=1&destination=19.6607842,-99.1370316" 
+         target="_blank">
+         🚗 CÓMO LLEGAR
+      </a>
+    </div>
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // SELECCIONAR SOLO LAS TARJETAS DE MENÚ Y COMBOS
+  // (Usamos .card-container que es el padre de tus productos)
+  const tarjetasGiratorias = document.querySelectorAll('.card-container');
+
+  tarjetasGiratorias.forEach(t => {
+    t.addEventListener('click', function(e) {
+      // Si el clic es en un botón o enlace de WhatsApp, no volteamos para que el link funcione
+      if (e.target.closest('a') || e.target.closest('button')) {
+        return; 
+      }
+      
+      // Solo voltea las que tienen la estructura de .card-inner
+      this.classList.toggle('flipped');
+    });
+  });
+
+  // El resto de tus funciones (Menú mobile, etc.) pueden seguir aquí abajo...
+});
+</script>
+<script>
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.bg-slide');
+  const totalSlides = slides.length;
+
+  function nextSlide() {
+    // Quitar 'active' de la imagen actual
+    slides[currentSlide].classList.remove('active');
+    
+    // Calcular el índice de la siguiente (si llega al final, vuelve a 0)
+    currentSlide = (currentSlide + 1) % totalSlides;
+    
+    // Añadir 'active' a la nueva imagen
+    slides[currentSlide].classList.add('active');
+  }
+
+  // Cambiar imagen cada 4000ms (4 segundos)
+  setInterval(nextSlide, 4000);
+</script>
+<script>
+  window.addEventListener('load', () => {
+    const container = document.querySelector('.v-carousel-container');
+    
+    // 1. Centrar la primera imagen al cargar
+    container.scrollTo({ left: 0 });
+
+    // 2. Lógica de auto-scroll
+    const slide = document.querySelector('.v-slide');
+    if (!slide) return;
+
+    const step = slide.offsetWidth + 15; // Ancho + Gap
+
+    setInterval(() => {
+      if (container.scrollLeft + container.offsetWidth >= container.scrollWidth - 10) {
+        container.scrollTo({ left: 0, behavior: 'smooth' });
+      } else {
+        container.scrollBy({ left: step, behavior: 'smooth' });
+      }
+    }, 3500);
+  });
+</script>
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+
+  // Escuchamos el clic en la hamburguesa
+  menuToggle.addEventListener('click', (e) => {
+    e.stopPropagation(); // Evita que el clic se propague
+    navLinks.classList.toggle('active');
+  });
+
+  // OPCIONAL: Cerrar el menú si haces clic en una opción
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+    });
+  });
+
+  // Cierra el menú si haces clic en cualquier otra parte de la pantalla
+  document.addEventListener('click', (e) => {
+    if (!menuToggle.contains(e.target) && !navLinks.contains(e.target)) {
+      navLinks.classList.remove('active');
+    }
+  });
+</script>
+<script>
+  window.addEventListener('load', () => {
+    const container = document.querySelector('.v-carousel-container');
+    
+    // Forzamos el scroll al inicio (primera imagen)
+    container.scrollTo({ left: 0 });
+
+    // Opcional: Auto-scroll cada 4 segundos
+    const slides = document.querySelectorAll('.v-slide');
+    if (slides.length > 0) {
+      const step = slides[0].offsetWidth + 15;
+      setInterval(() => {
+        if (container.scrollLeft + container.offsetWidth >= container.scrollWidth - 10) {
+          container.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
+          container.scrollBy({ left: step, behavior: 'smooth' });
+        }
+      }, 4000);
+    }
+  });
+</script>
+
+</body>
+</html><!-- GALERÍA -->
+
+<section id="galeria" class="gallery-section">
+  <div class="gallery-header">
+    <h2>GALERIA</h2>
+    <p>El sabor entra por los ojos. ¡Mira lo que estamos preparando!</p>
+  </div>
+
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="https://marelywings.mx/wp-content/uploads/2022/03/Alitas.jpg">
+      <div class="gallery-overlay">
+        <span>Alitas🔥</span>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://i0.wp.com/foodandwineespanol.com/wp-content/uploads/2021/02/salsas-alitas-superbowl.webp?fit=2560%2C1440&ssl=1" alt="Boneless">
+      <div class="gallery-overlay">
+        <span>Salsas Especiales</span>
+      </div>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="https://bambuleburger.com/wp-content/uploads/2021/06/PAPAS-GAJO-2.2.jpg" alt="Papas Gajo">
+      <div class="gallery-overlay">
+        <span>Papas Gajo Sazonadas 🍟</span>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+  <img src="img/img3.jpg" alt="Combos de Fuego">
+  <div class="gallery-overlay">
+    <span>Combos de Fuego 🍖</span>
+  </div>
+</div>
+
+<div class="gallery-item">
+  <img src="img/img7.jpeg" alt="Combos de Fuego">
+  <div class="gallery-overlay">
+    <span>Combos de Irresistibles 🍖</span>
+  </div>
+</div>
+
+<div class="gallery-item">
+  <img src="img/img8.jpeg" alt="Combos de Fuego">
+  <div class="gallery-overlay">
+    <span>Sobredosis de sabor 😋</span>
+  </div>
+</div>
+
+<div class="gallery-item">
+  <img src="img/img9.jpeg" alt="Combos de Fuego">
+  <div class="gallery-overlay">
+    <span>Alitas irresistibles</span>
+  </div>
+</div>
+<div class="gallery-item">
+  <img src="img/img10.jpeg" alt="Combos de Fuego">
+  <div class="gallery-overlay">
+    <span>Super Antojables</span>
+  </div>
+</div>
+<div class="gallery-item">
+  <img src="img/img11.jpeg" alt="Combos de Fuego">
+  <div class="gallery-overlay">
+    <span>Delicia en su maximo esplendor</span>
+  </div>
+</div>
+
+
+
+
+    <div class="gallery-item">
+      <img src="img/img1.jpg">
+      <div class="gallery-overlay">
+        <span>El Picante Perfecto 🌶️</span>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="img/img2.jpg" alt="Cocinando">
+      <div class="gallery-overlay">
+        <span>Recién Hecho 🍳</span>
+      </div>
+    </div>
+  </div>
+  <footer>
+  <p>© 2026 Tumbalitas</p>
+</footer>
+</section>
+
+
